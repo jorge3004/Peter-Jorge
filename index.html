@@ -5,6 +5,13 @@
   <meta charset="UTF-8">
   <title>Fork Me! FCC: Test Suite Template</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    @media only screen and (max-width: 600px) {}
+
+    #header {
+      display: flex
+    }
+  </style>
 </head>
 
 <body>
@@ -22,7 +29,19 @@
     - The freeCodeCamp Team
 
     -->
-  <p>Hello World we are software Developers!</p>
+  <header id="header">
+    <img src="w" id="header-img" />
+    <nav id="nav-bar" style="position:fixed">
+      <a href="#header" class="nav-link"></a>
+      <a href="#header-img" class="nav-link"></a>
+      <a href="#nav-bar" class="nav-link"></a>
+    </nav>
+  </header>
+  <iframe id="video" src="k"></iframe>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input id="email" placeholder="text" type="email" name="email" />
+    <input id="submit" type="submit" />
+  </form>
   <script src="js/index.js"></script>
 </body>
 
